@@ -16,14 +16,14 @@ let mensagem = ""
 //senão aluno reprovado
 
 if (media >= 7) {
-    mensagem = `A média é ${media}Aluno Aprovado`
+    mensagem = `A média do aluno é ${media} sendo assim Aprovado`
 }
 else {
     if (media >= 5) {
-        mensagem =`A média é ${media}Aluno em Recuperação`
+        mensagem =`A média do aluno é ${media}sendo assim  em Recuperação`
     }
     else {
-        mensagem = `A média é ${media}Aluno Reprovado`
+        mensagem = `A média do aluno é ${media} sendo assim  Reprovado`
 }
 }
 
